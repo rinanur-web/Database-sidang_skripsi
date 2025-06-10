@@ -6,6 +6,7 @@ Berikut ERD dari sistem ini:
 1. Membuat database dengan nama db_sidangskripsi
 2. Membuat tabel sesuai dengan erd yang telah dibuat
    a. CREATE TABLE mahasiswa - Menyimpan data mahasiswa
+   
       CREATE TABLE mahasiswa (
       id_mhs int NOT NULL AUTO_INCREMENT,
       nama_mhs varchar(50) NOT NULL,
@@ -19,6 +20,7 @@ Berikut ERD dari sistem ini:
       CONSTRAINT FK_mahasiswa_user FOREIGN KEY (id_user) REFERENCES user (id_user) ON DELETE CASCADE ON UPDATE CASCADE);
    
    b. CREATE TABLE dosen - Menyimpan data dosen
+   
       CREATE TABLE dosen (
       id_dosen int NOT NULL AUTO_INCREMENT,
       nama_dosen varchar(50) NOT NULL,
