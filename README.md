@@ -1,2 +1,3 @@
-# Database-sidang_skripsi
-Database Sidang Skripsi untuk tugas kelompok PBF
+# Sistem Informasi Penjadwalan Sidang Skripsi
+# Membuat Entity Relationship Diagram(ERD)
+Entity Relationship Diagram(ERD) 
