@@ -136,7 +136,7 @@ Berikut ERD dari sistem ini:
          (1, 22, 'Sidang mahasiswa dengan ID 77 telah dijadwalkan pada 2026-01-01 pukul 08:00:00 - 09:00:00 di ruang Lab Teknologi Jaringan.',
          'unread', '2025-05-15 15:40:23',    '2025-05-15 15:40:23');
 
-5. Membuat query JOIN yang digunakan untuk menampilkan gabungkan data dari beberapa tabel
+5. Membuat query JOIN yang digunakan untuk menampilkan gabungan data dari beberapa tabel
 
    a. JOIN jadwal mahasiswa
       Join jadwal mahasiswa ini untuk menampilkan jadwal sidang mahasiswa → berisi data mahasiswa + tanggal & waktu sidang + ruangan sidang.
