@@ -139,6 +139,7 @@ Berikut ERD dari sistem ini:
 5. Membuat query JOIN yang digunakan untuk menampilkan gabungan data dari beberapa tabel
 
    a. JOIN jadwal mahasiswa
+   
       Join jadwal mahasiswa ini untuk menampilkan jadwal sidang mahasiswa → berisi data mahasiswa + tanggal & waktu sidang + ruangan sidang.
 
          SELECT
@@ -150,6 +151,7 @@ Berikut ERD dari sistem ini:
       	INNER JOIN ruangan AS c ON b.id_ruangan = c.id_ruangan
 
    b. JOIN jadwal dosen
+   
       Join jadwal dosen digunakan untuk menampilkan jadwal sidang beserta peran dosen penguji (Penguji 1 dan Penguji 2) untuk setiap mahasiswa yang akan sidang
 
          SELECT
@@ -169,6 +171,7 @@ Berikut ERD dari sistem ini:
          e.kode_ruangan, e.nama_ruangan
 
    c. JOIN detail sidang
+   
       Join detail sidang digunakan untuk menampilkan detail lengkap sidang → data mahasiswa + penguji + tanggal & waktu + ruangan + status sidang.
 
          SELECT
